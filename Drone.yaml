@@ -20,5 +20,7 @@ steps:
     password:
       from_secret: docker_password
     repo: rlachhman/myrepo
-    auto_tag: true
-    auto_tag_suffix: drone-build
+    tags:
+      - '1.0.10'
+#    auto_tag: true
+#    auto_tag_suffix: drone-build
